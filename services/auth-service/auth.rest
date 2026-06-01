@@ -1,0 +1,11 @@
+POST http://localhost:3001/Auth/post_register
+Content-Type: application/json
+
+{
+  "firstName": "Alex",
+  "lastName": "Morgan",
+  "email": "alex.morgan@hotelmis.com",
+  "phone": "+1-555-019-2834",
+  "password": "SecurePassword2026!",
+  "role": "ADMIN"
+}
